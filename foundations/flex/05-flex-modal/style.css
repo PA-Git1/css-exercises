@@ -15,11 +15,17 @@ body {
   justify-content: center;
 }
 
+.header {
+  font-size: 18px;
+  font-weight: bold;
+}
+
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
 }
 
 .icon {
@@ -35,6 +41,39 @@ body {
   justify-content: center;
 }
 
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 15px ;
+  margin-left: 15px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-top {
+  display: flex;
+  margin-top: 15px;
+  margin-left: 12px;
+}
+
+.text {
+  display: flex;
+  margin: 10px 12px;
+}
+
+
+.options {
+  display: flex;
+  margin-left: 12px;
+  margin-bottom: 15px;
+  margin-top: 12px;
+  gap: 5px;
+}
+
 .close-button {
   background: #eee;
   border-radius: 50%;
@@ -48,6 +87,8 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+  margin-left: auto;
+  margin-right: 10px;
 }
 
 button {
